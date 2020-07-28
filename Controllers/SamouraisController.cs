@@ -54,7 +54,7 @@ namespace TP_Samouraï.Controllers
         {
             if (ModelState.IsValid)
             {
-                samouraiVm.Samourai.Arme = db.Armes.FirstOrDefault(a => a.Id == samouraiVm.IdArmes);
+                samouraiVm.Samourai.Arme = db.Armes.Find(samouraiVm.IdArmes);
                 db.Samourais.Add(samouraiVm.Samourai);
                 
                 db.SaveChanges();
@@ -104,7 +104,7 @@ namespace TP_Samouraï.Controllers
 
                 if (samouraiVM.IdArmes != null)
                 {
-                    samouraiDb.Arme = db.Armes.FirstOrDefault(a => a.Id == samouraiVM.IdArmes);
+                    samouraiDb.Arme = db.Armes.Find(samouraiVM.IdArmes);
             }
                 db.SaveChanges();
                 return RedirectToAction("Index");
