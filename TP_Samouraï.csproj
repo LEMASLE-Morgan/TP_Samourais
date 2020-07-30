@@ -128,17 +128,27 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="BO\Arme.cs" />
+    <Compile Include="BO\ArtMartial.cs" />
     <Compile Include="BO\Samourai.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Controllers\ArmesController.cs" />
+    <Compile Include="Controllers\ArtMartialsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SamouraisController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202007271235051_premiere.cs" />
-    <Compile Include="Migrations\202007271235051_premiere.designer.cs">
-      <DependentUpon>202007271235051_premiere.cs</DependentUpon>
+    <Compile Include="Migrations\202007290926351_Premiere.cs" />
+    <Compile Include="Migrations\202007290926351_Premiere.designer.cs">
+      <DependentUpon>202007290926351_Premiere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007300712324_Deuxieme.cs" />
+    <Compile Include="Migrations\202007300712324_Deuxieme.designer.cs">
+      <DependentUpon>202007300712324_Deuxieme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007300749545_AnnotationBO.cs" />
+    <Compile Include="Migrations\202007300749545_AnnotationBO.designer.cs">
+      <DependentUpon>202007300749545_AnnotationBO.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SamouraiVM.cs" />
@@ -191,6 +201,11 @@
     <Content Include="Views\Armes\Details.cshtml" />
     <Content Include="Views\Armes\Edit.cshtml" />
     <Content Include="Views\Armes\Index.cshtml" />
+    <Content Include="Views\ArtMartials\Create.cshtml" />
+    <Content Include="Views\ArtMartials\Delete.cshtml" />
+    <Content Include="Views\ArtMartials\Details.cshtml" />
+    <Content Include="Views\ArtMartials\Edit.cshtml" />
+    <Content Include="Views\ArtMartials\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -209,8 +224,14 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202007271235051_premiere.resx">
-      <DependentUpon>202007271235051_premiere.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202007290926351_Premiere.resx">
+      <DependentUpon>202007290926351_Premiere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007300712324_Deuxieme.resx">
+      <DependentUpon>202007300712324_Deuxieme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007300749545_AnnotationBO.resx">
+      <DependentUpon>202007300749545_AnnotationBO.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -42,6 +42,7 @@ namespace TP_Samouraï.Controllers
         {
             var samouraiVm = new SamouraiVM();
             samouraiVm.Armes = db.Armes.ToList();
+            samouraiVm.ArtsMartiaux = db.ArtMartials.ToList();
             return View(samouraiVm);
         }
 
@@ -55,8 +56,8 @@ namespace TP_Samouraï.Controllers
             if (ModelState.IsValid)
             {
                 samouraiVm.Samourai.Arme = db.Armes.Find(samouraiVm.IdArmes);
+                samouraiVm.Samourai.ArtsMartiaux = db.ArtMartials.Where(x => samouraiVm.IdArtMartiaux.Contains(x.Id)).ToList();
                 db.Samourais.Add(samouraiVm.Samourai);
-                
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }

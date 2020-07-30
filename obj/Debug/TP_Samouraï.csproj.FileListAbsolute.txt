@@ -88,5 +88,7 @@ C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.
 C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.csproj.CopyComplete
 C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.dll
 C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.pdb
-C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.Migrations.premiere.resources
+C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.Migrations.Premiere.resources
 C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.csproj.GenerateResource.cache
+C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.Migrations.Deuxieme.resources
+C:\Users\mlemasle\source\repos\TP_Samouraï\TP_Samouraï\obj\Debug\TP_Samouraï.Migrations.AnnotationBO.resources
